@@ -227,7 +227,7 @@ Resources:
                 Provider: CloudFormation
                 Version: "1"
               Configuration:
-                StackName: modernization-workshop
+                StackName: modernization-workshop-cft-example
                 OutputFileName: modernization-workshop.json
                 Capabilities: CAPABILITY_NAMED_IAM
                 RoleArn:
