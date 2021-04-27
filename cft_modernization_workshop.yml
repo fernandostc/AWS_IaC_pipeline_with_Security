@@ -8,8 +8,6 @@ Parameters:
     Default: us-west-2
     AllowedValues:
       - us-west-2
-      - eu-west-1
-      - ap-southeast-2
     Description: Conformity endpoint region. Defaults to us-west-2
   RiskLevel:
     Type: String
