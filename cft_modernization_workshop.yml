@@ -26,10 +26,6 @@ Parameters:
       - enabled
       - disabled
     Description: Define if you would like the security gate in the pipeline stop or not when recognize a misconfiguration with a specific Risk Level that you define or higher.
-  StackName:
-    Type: String
-    Default: ModernizationWorkshop
-    Description: Define stack name to be used if the CloudFormation pass thought the IaC pipeline validation to create the AWS Infrastructure. 
   CloudFormationTemplateLocation:
     Type: String
     Default: ./cloudformation.yml
