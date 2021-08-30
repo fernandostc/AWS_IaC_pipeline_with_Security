@@ -654,8 +654,8 @@ Resources:
                       - pip3 install awscli --upgrade --user
               build:
                   commands:
-                      - pip3 install -r https://raw.githubusercontent.com/OzNetNerd/Cloud-Conformity-Pipeline-Scanner/master/requirements.txt
-                      - wget https://raw.githubusercontent.com/OzNetNerd/Cloud-Conformity-Pipeline-Scanner/master/src/scanner.py
+                      - pip3 install -r https://raw.githubusercontent.com/fernandostc/Cloud-Conformity-Pipeline-Scanner/master/requirements.txt
+                      - wget https://raw.githubusercontent.com/fernandostc/Cloud-Conformity-Pipeline-Scanner/master/src/scanner.py
                       - python3 scanner.py &> output.json
                       
           artifacts:
